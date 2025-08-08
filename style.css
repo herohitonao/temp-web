@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+  margin:0;
+  height:100vh;
+  background: 
+  radial-gradient(circle closest-side , rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.548) ), 
+  url("main1.png");
+  background-size: cover, cover;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center center, center center;
+  background-blend-mode: overlay; /* You can also try 'multiply', 'screen', 'darken', etc. */
+ 
+}
+
+@media (max-width: 768px) {
+  .main {
+    height: 68vh; /* Reduce height for smaller viewports */
+    background-size: cover, cover, cover; /* Fit within screen bounds */
+    background-position: top center, top center, top center;
+    
+  }
+}
+@media (max-width: 320px) {
+    h5{
+        margin-top: 80px;
+    }
+}
+
+.container{
+    padding-right: 0px;
+}
+
+h1{
+    color: white;
+    font-size: larger;
+    padding: 10px;
+    font-family: Helvetica;
+}
+
+li a{
+    font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  color: white;
+  
+}
+.go{
+    color: white;
+   
+}
+
+.go:hover{
+    color: red;
+}
+
+.details{
+    color: rgb(252, 0, 0);
+ font-size: 18px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 19.44px;
+ word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+    .details{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (max-width: 768px){
+    .bot{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+}
+
+
+
+
+header{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* nav{
+    background-color: black;
+} */
+
+.link1,p{
+    color: rgb(255, 255, 255);
+}
+
+.link1,p:hover{
+    color: white;
+}
+
+.MAIN{
+   
+  
+  color: white;
+ font-size: 118px;
+ font-family: Instrument Serif;
+ font-weight: 400;
+ line-height: 94.96px;
+ word-wrap: break-word;
+ text-shadow: 0px 0px 0px rgba(255, 255, 255, 1.00)
+  
+}
+
+@media (max-width: 768px) {
+
+    .MAIN{
+         font-size: 69px;
+          line-height: 74.96px;
+    } 
+
+}
+
+@media (max-width: 444px) {
+
+    .MAIN{
+         font-size: 55px;
+          line-height: 54.96px;
+          padding-bottom: 20px;
+    }
+
+}
+
+
+footer{
+    padding-top: 50px;
+}
+.foot{
+    background-color: rgb(8, 8, 8);
+    padding: 0 50px;
+    color: white;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+h5{
+    font-size:small;
+    padding: 0;
+   
+}
+
+.last{
+    display: flex;
+    
+    padding-top: 20px;
+   justify-content: center;
+    font-size: small;
+}
+
+.btn{
+    border: solid 2px white;
+    color: white;
+    background-color: rgb(59, 58, 58);
+    opacity: 0.7;
+   
+}
+
+.btn:hover{
+    background-color: white;
+    border: solid 2px rgb(0, 0, 0);
+    color: black;
+    opacity: 1;
+}
