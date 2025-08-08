@@ -5,7 +5,7 @@
 
 .main{
   margin:0;
-  height:100vh;
+  height:140vh;
   background: 
   radial-gradient(circle closest-side , rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.548) ), 
   url("main1.png");
@@ -175,4 +175,5 @@ h5{
     border: solid 2px rgb(0, 0, 0);
     color: black;
     opacity: 1;
+
 }
